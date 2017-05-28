@@ -1,19 +1,19 @@
 .top {
 	position: fixed;
-    top: 0;
-    width: 100%;
-    min-width: 750px;
-    height: 75px;
-    line-height: 0px;
-    z-index: 10;
-    border-top: 2.5px solid #000000;
-    border-bottom: 2.5px solid #000000;
-    background-color: #003166;
-    display: table;
+	top: 0;
+	width: 100%;
+	min-width: 750px;
+	height: 75px;
+	line-height: 0px;
+	z-index: 10;
+	border-top: 2.5px solid #000000;
+	border-bottom: 2.5px solid #000000;
+	background-color: #003166;
+	display: table;
 }
 
 .top span {
-    display: table-cell;
+	display: table-cell;
 }
 
 .top span img {
@@ -26,7 +26,7 @@
 
 .top h1 {
 	vertical-align: middle;
-    display: table-cell;
+	display: table-cell;
 	color: #ffffff;
 	float: left;
 	margin: 0px;
@@ -40,13 +40,13 @@
 
 .top ul {
 	vertical-align: middle;
-    display: table-cell;
-    float: right;
-    margin: 0px;
-    padding-right: 20px;
-    padding-left: 0;
-    height: 75px;
-    list-style-type: none;
+	display: table-cell;
+	float: right;
+	margin: 0px;
+	padding-right: 20px;
+	padding-left: 0;
+	height: 75px;
+	list-style-type: none;
 }
 
 .top ul li {
@@ -90,17 +90,50 @@
 	border-style: inset;
 }
 
-div.about {
-	margin: 100px auto 0px auto;
+.side_spacing {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.about {
+	margin: auto;
+	margin-top: 100px;
 	max-width: 750px;
 	background-color: white;
 	box-shadow: 10px 10px 5px #000000;
 	border-radius: 10px;
+  height: auto;
+	max-height: 100%;
+	overflow: auto;
 }
 
-.side_spacing {
-	padding-left: 15px;
-	padding-right: 15px;
+.about h2 {
+	margin-top: 20px;
+	margin-bottom: 0;
+	font-family: sans-serif;
+	font-size: 24pt;
+	float: left;
+	width: 34%;
+	display: block;
+	text-align: center;
+}
+
+.about img {
+	height: 60%;
+	width: 60%;
+	border-radius: 200px 200px 200px 200px / 100px 100px 100px 100px;
+	margin: 20px;
+	float: right;
+	display: inline-block;
+}
+
+.about p {
+	clear: left;
+	padding: 20px;
+	text-align: justify;
+	font-family: sans-serif;
+	font-size: 10pt;
+	margin: 0;
 }
 
 body {
@@ -117,9 +150,9 @@ body {
 	bottom: 0px;
 	width: 100%;
 	border-top: 2.5px solid #000000;
-    border-bottom: 2.5px solid #000000;
-    background-color: #003166;
-    color: #ffffff;
+	border-bottom: 2.5px solid #000000;
+	background-color: #003166;
+	color: #ffffff;
 }
 
 .bottom p {
@@ -141,7 +174,7 @@ body {
 }
 
 .bottom a:last-child {
-	min-width: 90px;
+	min-width: 95px;
 }
 
 .bottom a:hover {
